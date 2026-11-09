@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 05 </title>
+</head>
+
+
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TdITcVD64zI?si=pyrS5AKf7nMFh-0Z"
+        title="Video tutorial de programación" frameborder="0" loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <embed src="media/apuntes.pdf" type="application/pdf" width="100%" height="500px"></embed>
+    <object data="https://www.wikipedia.org" type="text/html">Tu navegador no admite la visualizacion de este objeto
+        incrustado</object>
+    <video controls width="640" poster="media/portada.jpg" src="media/muestra.mp4" type="video/mp4"></video>
+    <audio controls source src="media/pista.mp3" type="audio/mpeg"></audio>
+    <svg width="200" height="200">
+        <rect width="200" height="200" fill="blue" />
+        <circle cx="100" cy="100" r="50" fill="yellow" stroke="red" />
+    </svg>
+    <canvas id="miLienzo" width="300" height="150">
+        Tu navegador no soporta el elemento Canvas
+    </canvas>
+
+
+    <script>
+        const canvas = document.getElementById('miLienzo');
+        const ctx = canvas.getContext('2d');
+
+
+        ctx.fillStyle = 'green';
+        ctx.fillRect(10, 10, 150, 80);
+
+
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+    </script>
+</body>
+</html>
