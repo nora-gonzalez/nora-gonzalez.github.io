@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción a Evento Tech</title>
+</head>
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/inscripcion.php" method="post" enctype="multipart/form-data">
+        <label for="equipo">Nombre del Equipo:</label>
+        <input type="text" id="equipo" name="equipo" autofocus required><br/>
+        <label for="codigo_registro">Código de Registro:</label>
+        <input type="text" id="codigo_registro" name="codigo_registro" value="HACK-2026-SEV" readonly><br/>
+        
+        <label for="phone">Fecha de llegada:</label>
+        <input type="date" id="phone" name="phone">
+        <label for="phone">Hora de presentación:</label>
+        <input type="date" id="phone" name="phone">
+        <label for="phone">Color identificativo del equipo:</label>
+        <input type="date" id="phone" name="phone">
+        <label for="phone">Nivel estimado de Java (0 a 100):</label>
+        <input type="range" id="phone" name="phone" min="0" max="100" step="5">
+        <label for="phone">Subir Expediente / CV:</label>
+        <input type="file" id="phone" name="phone">
+        <br>
+        <label for="event">Evento:</label>
+        <select id="event" name="event" required>
+            <option value="">Selecciona un evento</option>
+            <option value="evento1">Evento 1</option>
+            <option value="evento2">Evento 2</option>
+            <option value="evento3">Evento 3</option>
+        </select>
+        <br>
+        <input type="submit" value="Inscribirse">
+    </form>
+</body>
+</html>
