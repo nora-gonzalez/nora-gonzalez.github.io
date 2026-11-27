@@ -1,0 +1,31 @@
+div {
+    background-color: red;
+    color: yellow;
+}
+
+.fondo-verde{
+    background-color: green;
+    color: white;
+}
+
+#nuevap{
+background-color: blue;
+color: white;
+}
+
+.altura-anchura{
+    width: 100px;
+    height: 100px;
+}
+
+p:hover {
+background-color: yellow;
+color: black;
+height:50px;
+width: 50px;
+}
+
+.fondo-verde:hover {
+    background-color: salmon;
+    color: lightgoldenrodyellow;
+}

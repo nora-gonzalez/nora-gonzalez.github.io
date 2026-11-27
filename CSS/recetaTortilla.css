@@ -1,0 +1,22 @@
+.fondo-azul{
+    background-color: blue;
+    color: black;
+}
+
+.fondo-rojo{
+    background-color: red;
+    color: rgb(255, 183, 178);
+}
+
+.sombra-roja{
+    text-shadow: 2px 2px 5px red;
+}
+
+.sombra-azul{
+    text-shadow: 2px 2px 3px blue;
+}
+
+.subtitulo{
+    font-family: Verdana, sans-serif;
+    font-weight: bold; text-align: center;
+}
